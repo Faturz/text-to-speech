@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    background: linear-gradient(to right, #383838,#2f2f2f)
+}
+.navbar {
+    background-color: #c300ff;
+    color: white;
+    width: 50%;
+    border-radius: 8px;
+    margin-top: -5px;
+    margin-left: 255px;
+}
+.name {
+    padding-right: 50%;
+    display: flex;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    top: 10px;
+}
+.navbar ul li a {
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.title {
+    margin: 40px;
+    text-align: center; 
+    opacity: 0; /* Atur opasitas awal ke 0 (tidak terlihat) */
+    transform: translateY(30px); /* Atur translasi vertikal awal */
+    transition: opacity 1s ease, transform 1s ease;
+}
+.title h3 {
+    font-weight: bold;
+    color: #fff;
+}
+.title h3 span {
+    font-style: italic;
+    color: rgb(157, 0, 255);
+    padding-left: 10px;
+    font-weight: 700;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 3px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+::placeholder {
+    color: rgb(50, 49, 49);
+    opacity: 50%;
+}
+
+.button {
+    text-align: center;
+}
+button {
+    background-color: rgb(157, 0, 255);
+    color: #fff;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+.cr {
+    margin-top: 100px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(74, 74, 74);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cr p {
+    background-color:  rgb(157, 0, 255);
+    border-radius: 10px;
+    padding: 50px;
+}
+p {
+    opacity: 0; /* Atur opasitas awal ke 0 (tidak terlihat) */
+    transform: translateY(30px); /* Atur translasi vertikal awal */
+    transition: opacity 1s ease, transform 1s ease;
+}
+.cr a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.cr p span {
+    font-weight: 600;
+    border-radius: 8px;
+    color: #0095ff;
+}
